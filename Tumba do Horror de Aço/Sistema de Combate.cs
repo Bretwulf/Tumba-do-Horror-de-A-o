@@ -774,6 +774,7 @@ namespace Tumba_do_Horror_de_Aço
             }// First Aid 15%
             if (roll >=56 && roll <= 85)
             {
+                operação = true;
                 grupo.Add(new NPC());
                 grupo.Add(new NPC());
                 grupo.Add(new NPC());
@@ -786,6 +787,7 @@ namespace Tumba_do_Horror_de_Aço
             }// Luta normal 30%
             if (roll >= 86 && roll <= 100)
             {
+                operação = true;
                 inimigo.criarsilent();
                 inimigo.introdução();
                 bossfight();
@@ -976,8 +978,8 @@ namespace Tumba_do_Horror_de_Aço
                                 }
                                 else if (current == "-x-")
                                 {
-                                    Console.Write("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
-                                        "você lembra. Talvez seja melhor explorar outro lugar.");
+                                    Console.WriteLine("You have been to this room already, and even with the layout changes,\n" +
+                                        "nothing new happens here. You should be off to explore other places!");
                                     buffer = "-x-";
                                 }
                                 else if (current == "-s-")
@@ -1028,7 +1030,7 @@ namespace Tumba_do_Horror_de_Aço
                             }
                             else
                             {
-                                Console.Write("Não é possível se mover nesta direção.");
+                                Console.WriteLine("Não é possível se mover nesta direção.");
                             }
 
 
@@ -1109,9 +1111,9 @@ namespace Tumba_do_Horror_de_Aço
                                 }
                                 else if (current == "-x-")
                                 {
-                                    Console.WriteLine("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
-                                        "você lembra. Talvez seja melhor explorar outro lugar.");
-                                    buffer = "-x-";
+                                Console.WriteLine("You have been to this room already, and even with the layout changes,\n" +
+                                   "nothing new happens here. You should be off to explore other places!");
+                                buffer = "-x-";
                                 }
                                 else if (current == "-s-")
                                 {
@@ -1240,9 +1242,9 @@ namespace Tumba_do_Horror_de_Aço
                                 }
                                 else if (current == "-x-")
                                 {
-                                    Console.WriteLine("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
-                                        "você lembra. Talvez seja melhor explorar outro lugar.");
-                                    buffer = "-x-";
+                                Console.WriteLine("You have been to this room already, and even with the layout changes,\n" +
+                                    "nothing new happens here. You should be off to explore other places!");
+                                buffer = "-x-";
                                 }
                                 else if (current == "-s-")
                                 {
@@ -1370,9 +1372,9 @@ namespace Tumba_do_Horror_de_Aço
                                 }
                                 else if (current == "-x-")
                                 {
-                                    Console.WriteLine("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
-                                        "você lembra. Talvez seja melhor explorar outro lugar.");
-                                    buffer = "-x-";
+                                Console.WriteLine("You have been to this room already, and even with the layout changes,\n" +
+                                    "nothing new happens here. You should be off to explore other places!");
+                                buffer = "-x-";
                                 }
                                 else if (current == "-s-")
                                 {
