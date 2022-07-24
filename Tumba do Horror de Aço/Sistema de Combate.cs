@@ -975,7 +975,7 @@ namespace Tumba_do_Horror_de_Aço
                                     }
                                     else
                                     {
-                                        Console.Write("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
+                                        Console.WriteLine("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
                                             "artifact is showing you the way out. Time to find out if your instincts and this cursed object are to be trusted.");
                                         dungeon[csaida, lsaida] = "-s-";
                                         chave = true;
