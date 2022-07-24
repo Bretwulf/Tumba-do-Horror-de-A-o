@@ -11,7 +11,7 @@ namespace Tumba_do_Horror_de_Aço
         public int HP, AC, dmg, atk;
         public string nome;
         public bool incover;
-        public string textoataque, textoacerto, textocritico,textomorte;
+        public string textoataque, textoacerto, textocritico, textomorte;
         public string[] inventory = new string[6];
         public void criar(string name, int vida, int armadura, int ataque, int damage)
         {

@@ -80,12 +80,23 @@ namespace Tumba_do_Horror_de_Aço
                         heroi.cover();
                         break;
                     case 3:
-                        Console.WriteLine("Unable to fight with such a powerful enemy, you escape, running through the shadowy halls\n" +
-                            "until you can't hear their movement and their weapons. You live to see another day, but the shame weights\n" +
-                            "on your shoulders...");
-                        gotit = false;
-                        operação = false;
-                        goto end;
+                        roll = dado.Next(1, 20);
+                        if (roll >= 15)
+                        {
+                            Console.WriteLine("Unable to fight with such a powerful enemy, you escape, running through the shadowy halls\n" +
+                                "until you can't hear their movement and their weapons. You live to see another day, but the shame weights\n" +
+                                "on your shoulders...");
+                            gotit = false;
+                            operação = false;
+                            goto end;
+                            
+                        }
+                        else
+                        {
+                            Console.WriteLine("Overbeared by the enemy fire, you try to escape into the shadows. However, he is merciless\n" +
+                                "and don't seem to be bothered at all by darkness. He catches up to you fastly, and his rays of death are\n" +
+                                "are soon upon you again. This fight hasn't ended soldier!");
+                        }
                         break;
                 }
                 if (inimigo.HP <= 0)
@@ -298,12 +309,23 @@ namespace Tumba_do_Horror_de_Aço
                         heroi.cover();
                         break;
                     case 3:
-                        Console.WriteLine("Unable to fight with such a powerful enemy, you escape, running through the shadowy halls\n" +
-                            "until you can't hear their movement and their weapons. You live to see another day, but the shame weights\n" +
-                            "on your shoulders...");
-                        gotit = false;
-                        operação = false;
-                        goto end;
+                        roll = dado.Next(1, 20);
+                        if (roll >= 15)
+                        {
+                            Console.WriteLine("Unable to fight with such a powerful enemy, you escape, running through the shadowy halls\n" +
+                                "until you can't hear their movement and their weapons. You live to see another day, but the shame weights\n" +
+                                "on your shoulders...");
+                            gotit = false;
+                            operação = false;
+                            goto end;
+                            
+                        }
+                        else
+                        {
+                            Console.WriteLine("Overbeared by the enemy fire, you try to escape into the shadows. However, they are merciless\n" +
+                                "and don't seem to be bothered at all by darkness. they catch up to you fastly, and their rays of death are\n" +
+                                "are soon upon you again. This fight hasn't ended soldier!");
+                        }
                         break;
                 }
 
