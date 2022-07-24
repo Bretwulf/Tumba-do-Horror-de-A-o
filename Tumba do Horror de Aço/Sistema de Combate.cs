@@ -896,8 +896,8 @@ namespace Tumba_do_Horror_de_Aço
                 Console.WriteLine("Which way are you moving, soldier?\n" +
                         "1 - Up\n" +
                         "2 - Down\n" +
-                        "3- Left\n" +
-                        "4- Right\n");
+                        "3- Right\n" +
+                        "4- Left\n");
                     direction = int.Parse(Console.ReadLine());
                     switch (direction)
                     {
@@ -1084,7 +1084,7 @@ namespace Tumba_do_Horror_de_Aço
                                     }
                                     else
                                     {
-                                        Console.Write("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
+                                        Console.WriteLine("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
                                             "artifact is showing you the way out. Time to find out if your instincts and this cursed object are to be trusted.");
                                         dungeon[csaida, lsaida] = "-s-";
                                         chave = true;
@@ -1109,7 +1109,7 @@ namespace Tumba_do_Horror_de_Aço
                                 }
                                 else if (current == "-x-")
                                 {
-                                    Console.Write("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
+                                    Console.WriteLine("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
                                         "você lembra. Talvez seja melhor explorar outro lugar.");
                                     buffer = "-x-";
                                 }
@@ -1161,7 +1161,7 @@ namespace Tumba_do_Horror_de_Aço
                             }
                             else
                             {
-                                Console.Write("Não é possível se mover nesta direção.");
+                                Console.WriteLine("Não é possível se mover nesta direção.");
                             }
                             break;
                         case 3:
@@ -1215,7 +1215,7 @@ namespace Tumba_do_Horror_de_Aço
                                     }
                                     else
                                     {
-                                        Console.Write("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
+                                        Console.WriteLine("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
                                             "artifact is showing you the way out. Time to find out if your instincts and this cursed object are to be trusted.");
                                         dungeon[csaida, lsaida] = "-s-";
                                         chave = true;
@@ -1240,7 +1240,7 @@ namespace Tumba_do_Horror_de_Aço
                                 }
                                 else if (current == "-x-")
                                 {
-                                    Console.Write("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
+                                    Console.WriteLine("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
                                         "você lembra. Talvez seja melhor explorar outro lugar.");
                                     buffer = "-x-";
                                 }
@@ -1292,7 +1292,7 @@ namespace Tumba_do_Horror_de_Aço
                             }
                             else
                             {
-                                Console.Write("Não é possível se mover nesta direção.");
+                                Console.WriteLine("Não é possível se mover nesta direção.");
                             }
                             break;
                         case 4:
@@ -1345,7 +1345,7 @@ namespace Tumba_do_Horror_de_Aço
                                     }
                                     else
                                     {
-                                        Console.Write("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
+                                        Console.WriteLine("The pulsing is as greenish and sickly as everything in this tomb, but a gut feeling tells you that the \n" +
                                             "artifact is showing you the way out. Time to find out if your instincts and this cursed object are to be trusted.");
                                         dungeon[csaida, lsaida] = "-s-";
                                         chave = true;
@@ -1370,7 +1370,7 @@ namespace Tumba_do_Horror_de_Aço
                                 }
                                 else if (current == "-x-")
                                 {
-                                    Console.Write("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
+                                    Console.WriteLine("Você já passou por essa sala, e apesar das dinâmicas imprevisíveis do lugar, tudo permanece como\n" +
                                         "você lembra. Talvez seja melhor explorar outro lugar.");
                                     buffer = "-x-";
                                 }
@@ -1422,7 +1422,7 @@ namespace Tumba_do_Horror_de_Aço
                             }
                             else
                             {
-                                Console.Write("Não é possível se mover nesta direção.");
+                                Console.WriteLine("Não é possível se mover nesta direção.");
                             }
                             break;
 
