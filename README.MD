@@ -18,3 +18,6 @@ caracteres que representam cada sala totalmente váriaveis através de uma ediç
 de variáveis.
 
 Espero que se divirta ao baixar e jogar o projeto :)
+
+*OBS: Projeto em inglês. A temática (Warhammer 40k) tem muitos termos intraduzívels, então
+preferi manter o jogo em inglês. Espero que não atrapalhe sua diversão!*
